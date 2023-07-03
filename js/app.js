@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function resul() {
           resultadoElemento= cuenta - (50 * cuenta / 100);
         } else if (selectedOption === "Junior") {
           var cuenta= 200 * cantidad;
-          resultadoElemento= cuenta -(15 * cuenta / 100)
+          resultadoElemento= cuenta -(15 * cuenta / 100);
         }
         document.getElementById("btnMostrarResultado").addEventListener("click", function(event) {
           event.preventDefault();
